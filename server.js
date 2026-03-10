@@ -55,7 +55,7 @@ const app = express();
 
 // ✅ CORS middleware (VERY IMPORTANT - before routes)
 app.use(cors({
-  origin: "http://localhost:5173", // React Vite frontend
+  origin: "https://school-application-front-end.vercel.app", // React Vite frontend
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
